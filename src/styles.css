@@ -1,7 +1,9 @@
 body {
   font-family: sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 #app {
@@ -9,22 +11,30 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #5a5c70;
   width: 1280px;
 }
-
+.topo {
+  background-color: #a3a6cc;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 #conteudo {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
-
 #imagens {
+  background-color: #a3a6cc;
   display: flex;
+  gap: 8px;
+  justify-content: center;
   width: 100%;
 }
 .imagem {
-  width: 50px;
-  margin: 0 10px;
+  border-radius: 8px;
 }
